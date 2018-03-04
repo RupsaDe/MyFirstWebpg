@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ladakh</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body,html{
+	height: 100%;
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+.parallax1 {
+    
+    background-image: url("Images/main.jpg");
+    min-height: 1000px; 
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.parallax2{
+	background-image: url("Images/2.webp");
+    min-height: 1000px; 
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.parallax3{
+	background-image: url("Images/kargil.jpg");
+    min-height: 1000px; 
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container{
+			text-align: center;
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%,-50%);
+ 	width: 100%;
+}
+
+.text1{
+	font-size: 10vw;
+	text-shadow: 4px 4px 5px #80bfff;
+	font-weight: 700;
+	letter-spacing: 8px;
+	margin-bottom: 5px;
+	color: #ffffcc;
+	position:relative; 
+	animation: text 3s 1;
+}
+.text2{
+	font-size:3vw;
+	color:yellow; text-shadow: 0 0 2px black;letter-spacing: 6px;
+}
+ 
+ .container span{
+
+ 	display: block;
+ }
+ @keyframes text{
+ 	0%{
+ 		
+ 		margin-bottom:-40px; 
+ 	}
+ 	30%{
+
+ 		letter-spacing: 25px;
+ 		margin-bottom: -20px;
+ 	}
+ 	85%{
+
+ 		letter-spacing: 8px;
+ 		margin-bottom: 30px;
+ 	}
+ }
+
+ .sidenav {
+ 	
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 3vw;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: black;
+    background: #dfbf9f
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#4CAF50;
+  
+}
+
+
+</style>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "40vw";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</head>
+
+
+
+<body>
+	<div class="parallax1">
+	<div class="topnav">
+  <a href="#first">Introduction</a>
+  <a href="#second">History</a>
+  <a href="#third">Contact Us</a>
+</div>
+
+
+	<div class="container"><span class="text1" onclick="document.getElementById('demo').style.fontSize='11vw'"><span id="demo" style="cursor:pointer">LADAKH</span></span>
+						<span class="text2" onclick="document.getElementById('demo').style.fontSize='5vw'"><span id="demo" style="cursor:pointer">THE LAND OF PASSES</span></span></div>
+
+	</div>
+
+    <div style="height:30vw;background-color:#ebebe0;font-size:1.5vw;font-family:cursive;">  <div id="mySidenav" class="sidenav"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#first">Introduction</a>
+  <a href="#second">History</a>
+  <a href="#third">Contact Us</a></div>
+  <span style="font-size:5vw;cursor:pointer;color:white;background:#3377ff;float:left; " onclick="openNav()">&#9776;</span>
+  <h2 style="text-align:center;  "><span id="first">Introduction</span></h2>
+<p>Ladakh ("land of high passes") is a region in the Indian state of Jammu and Kashmir that currently extends from the Kunlun mountain range to the main Great Himalayas to the south, inhabited by people of Indo-Aryan and Tibetan descent.It is one of the most sparsely populated regions in Jammu and Kashmir and its culture and history are closely related to that of Tibet. Ladakh is renowned for its remote mountain beauty and culture.Historically, the region included the Baltistan (Baltiyul) valleys (now mostly in Pakistan), the entire upper Indus Valley, the remote Zanskar, Lahaul and Spiti to the south, much of Ngari including the Rudok region and Guge in the east, Aksai Chin in the northeast (extending to the Kun Lun Mountains), and the Nubra Valley to the north over Khardong La in the Ladakh Range. Contemporary Ladakh borders Tibet to the east, the Lahaul and Spiti regions to the south, the Vale of Kashmir, Jammu and Baltiyul regions to the west, and the southwest corner of Xinjiang across the Karakoram Pass in the far north.</p>
+</div>
+
+   <div class="parallax2"></div>
+
+
+ <div style="height:30vw;background-color:#ebebe0;font-size:1.5vw;font-family:cursive;">  <div id="mySidenav" class="sidenav"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#first">Introduction</a>
+  <a href="#second">History</a>
+  <a href="#third">Contact Us</a>
+  </div>
+  <span style="font-size:5vw;cursor:pointer;color:white;background:#3377ff;float:left; " onclick="openNav()">&#9776;</span>
+  <h2 style="text-align:center;"><span id="second">History</span></h2>
+<p>Rock carvings found in many parts of Ladakh indicate that the area has been inhabited from Neolithic times.Ladakh's earliest inhabitants consisted of a mixed Indo-Aryan population of Mons and Dards,[14] who find mention in the works of Herodotus,Nearchus, Megasthenes, Pliny, Ptolemy, and the geographical lists of the Puranas. Around the 1st century, Ladakh was a part of the Kushan Empire. Buddhism spread into western Ladakh from Kashmir in the 2nd century when much of eastern Ladakh and western Tibet was still practicing the Bon religion. The 7th century Buddhist traveler Xuanzang describes the region in his accounts.
+
+In the 8th century, Ladakh was involved in the clash between Tibetan expansion pressing from the East and Chinese influence exerted from Central Asia through the passes.[citation needed] Suzerainty over Ladakh frequently changed hands between China and Tibet. In 842 Nyima-Gon, a Tibetan royal prince annexed Ladakh for himself after the break-up of the Tibetan empire, and founded a separate Ladakhi dynasty. During this period, Ladakh acquired a predominantly Tibetan population. The dynasty spearheaded the second spreading of Buddhism, importing religious ideas from north-west India, particularly from Kashmir. The first spreading of Buddhism was the one in Tibet proper.[citation needed]</p>
+</div>
+   <div class="parallax3"></div>
+   <div style="background-color:#ebebe0;font-size:1.5vw;font-family:cursive;"><h2 style="text-align:center;"><span id="third">Contact Us</span></h2>
+   <p style="text-align:center; ">This project is presented by Rupsa De.<br>Mobile No:9831304422<br>Email ID:rupsade@gmail.com<br><br><br><b>THANK YOU</b></p><br>
+   <div>
+</body>
